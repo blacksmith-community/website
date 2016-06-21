@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blacksmith</title>
-    <link>https://blacksmith.starkandwayne.com/</link>
+    <link>http://blacksmith.starkandwayne.com/</link>
     <description>Recent content on Blacksmith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Jun 2016 21:00:00 -0400</lastBuildDate>
-    <atom:link href="https://blacksmith.starkandwayne.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blacksmith.starkandwayne.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Getting Started</title>
-      <link>https://blacksmith.starkandwayne.com/getting-started/</link>
+      <link>http://blacksmith.starkandwayne.com/getting-started/</link>
       <pubDate>Mon, 20 Jun 2016 21:00:00 -0400</pubDate>
       
-      <guid>https://blacksmith.starkandwayne.com/getting-started/</guid>
+      <guid>http://blacksmith.starkandwayne.com/getting-started/</guid>
       <description>
 
 &lt;h2 id=&#34;something&#34;&gt;Something&lt;/h2&gt;
@@ -23,10 +23,10 @@
     
     <item>
       <title>Blacksmith</title>
-      <link>https://blacksmith.starkandwayne.com/</link>
+      <link>http://blacksmith.starkandwayne.com/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://blacksmith.starkandwayne.com/</guid>
+      <guid>http://blacksmith.starkandwayne.com/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
