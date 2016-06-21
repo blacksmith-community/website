@@ -1,0 +1,42 @@
+baseurl: http://blacksmith.starkandwayne.com/
+blackfriday:
+  fractions: true
+  plainIDAnchors: true
+  smartDashes: true
+  smartypants: true
+canonifyurls: true
+googleAnalytics: ""
+languageCode: en-us
+menu:
+  main:
+  - name: Blacksmith
+    url: /
+    weight: 0
+  - name: Getting started
+    url: getting-started/
+    weight: 10
+metadataformat: yaml
+params:
+  author: Long Nguyen
+  copyright: Released under the MIT license
+  custom_css: []
+  custom_js: []
+  description: Building production services for Cloud Foundry
+  favicon: ""
+  font:
+    code: Ubuntu Mono
+    text: Ubuntu
+  highlight_css: ""
+  logo: images/logo.png
+  palette:
+    accent: light green
+    primary: red
+  permalink: '#'
+  provider: GitHub
+  repo_url: https://github.com/cloudfoundry-community/blacksmith
+  version: 0.1.0
+social:
+  github: starkandwayne
+  twitter: starkandwayne
+theme: hugo-material-docs
+title: Blacksmith
