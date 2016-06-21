@@ -5,6 +5,7 @@ type: index
 weight: 0
 ---
 
-## Introduction
+## What is Blacksmith
 
-Blacksmith is a service broker for deploying production grade services using BOSH
+Blacksmith is a service broker for Cloud Foundry using BOSH to deploy production grade services.
+

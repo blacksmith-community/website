@@ -17,7 +17,18 @@
       <guid>http://blacksmith.starkandwayne.com/getting-started/</guid>
       <description>
 
-&lt;h2 id=&#34;something&#34;&gt;Something&lt;/h2&gt;
+&lt;h2 id=&#34;creating-your-first-forge&#34;&gt;Creating your first forge&lt;/h2&gt;
+
+&lt;p&gt;A typical forge looks like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.
+├── service.yml
+└── small
+    ├── credentials.yml
+    ├── init
+    ├── manifest.yml
+    └── plan.yml
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
