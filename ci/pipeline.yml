@@ -1,0 +1,34 @@
+
+meta:
+  name:     (( param "Please name your pipeline" ))
+  target:   (( param "Please identify the name of the target Concourse CI" ))
+  pipeline: (( grab meta.name ))
+
+jobs:
+  - name: push-website
+    public: true
+    serial: true
+    plan:
+    - aggregate:
+      - get: website
+        trigger: true
+    - put: live-app
+      params:
+        manifest: website/manifest.yml
+        path: website
+resources:
+- name: website
+  type: git
+  source:
+    uri: https://github.com/blacksmith-community/website
+    branch: master
+
+- name: live-app
+  type: cf
+  source:
+    api:             (( grab meta.cf.url ))
+    username:        (( grab meta.cf.user ))
+    password:        (( grab meta.cf.password ))
+    organization:    (( grab meta.cf.org ))
+    space:           (( grab meta.cf.space ))
+    skip_cert_check: false

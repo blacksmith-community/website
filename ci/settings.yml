@@ -1,0 +1,9 @@
+meta:
+  name: blacksmith-website
+  target: sw
+  cf:
+    org: (( vault "secret/pipelines/blacksmith/cf:org" ))
+    space: (( vault "secret/pipelines/blacksmith/cf:space" ))
+    user: (( vault "secret/pipelines/blacksmith/cf:user" ))
+    password: (( vault "secret/pipelines/blacksmith/cf:password" ))
+    url: "https://api.run.pivotal.io"
