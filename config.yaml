@@ -1,4 +1,4 @@
-baseurl: http://blacksmith.starkandwayne.com/
+baseurl: https://blacksmith.starkandwayne.com/
 blackfriday:
   fractions: true
   plainIDAnchors: true
