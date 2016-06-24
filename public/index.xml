@@ -6,8 +6,28 @@
     <description>Recent content on Blacksmith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jun 2016 21:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jun 2016 19:49:00 -0400</lastBuildDate>
     <atom:link href="http://blacksmith.starkandwayne.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deploying Blacksmith</title>
+      <link>http://blacksmith.starkandwayne.com/deploying/</link>
+      <pubDate>Thu, 23 Jun 2016 19:49:00 -0400</pubDate>
+      
+      <guid>http://blacksmith.starkandwayne.com/deploying/</guid>
+      <description>
+
+&lt;h2 id=&#34;bosh-lite&#34;&gt;BOSH-lite&lt;/h2&gt;
+
+&lt;p&gt;Deploying to BOSH-lite requires using cloud config&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bosh target 192.168.50.4
+https://github.com/cloudfoundry-community/blacksmith-boshrelease
+cd blacksmith-boshrelease
+templates/make_manifest
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Getting Started</title>

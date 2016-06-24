@@ -12,9 +12,12 @@ menu:
   - name: Blacksmith
     url: /
     weight: 0
+  - name: Deploying
+    url: deploying/
+    weight: 10
   - name: Getting started
     url: getting-started/
-    weight: 10
+    weight: 20
 metadataformat: yaml
 params:
   author: Long Nguyen

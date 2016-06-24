@@ -8,18 +8,18 @@
   <head lang="en-us">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
-    <title>Getting Started - Blacksmith</title>
+    <title>Deploying Blacksmith - Blacksmith</title>
     <meta name="generator" content="Hugo 0.16" />
 
     
     <meta name="description" content="Building production services for Cloud Foundry">
     
-    <link rel="canonical" href="http://blacksmith.starkandwayne.com/getting-started/">
+    <link rel="canonical" href="http://blacksmith.starkandwayne.com/deploying/">
     
     <meta name="author" content="Long Nguyen">
     
 
-    <meta property="og:url" content="http://blacksmith.starkandwayne.com/getting-started/">
+    <meta property="og:url" content="http://blacksmith.starkandwayne.com/deploying/">
     <meta property="og:title" content="Blacksmith">
     <meta property="og:image" content="http://blacksmith.starkandwayne.com/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="Blacksmith">
@@ -96,7 +96,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Getting Started
+        Deploying Blacksmith
       </div>
     </div>
 
@@ -200,11 +200,14 @@
 
 
 
-<a  title="Deploying" href="http://blacksmith.starkandwayne.com/deploying/">
+<a class="current" title="Deploying" href="http://blacksmith.starkandwayne.com/deploying/">
 	
 	Deploying
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
   
 </li>
@@ -217,14 +220,11 @@
 
 
 
-<a class="current" title="Getting started" href="http://blacksmith.starkandwayne.com/getting-started/">
+<a  title="Getting started" href="http://blacksmith.starkandwayne.com/getting-started/">
 	
 	Getting started
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
   
 </li>
@@ -264,21 +264,18 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Getting Started </h1>
+			<h1>Deploying Blacksmith </h1>
 
 			
 
-<h2 id="creating-your-first-forge">Creating your first forge</h2>
+<h2 id="bosh-lite">BOSH-lite</h2>
 
-<p>A typical forge looks like this</p>
+<p>Deploying to BOSH-lite requires using cloud config</p>
 
-<pre><code>.
-├── service.yml
-└── small
-    ├── credentials.yml
-    ├── init
-    ├── manifest.yml
-    └── plan.yml
+<pre><code>bosh target 192.168.50.4
+https://github.com/cloudfoundry-community/blacksmith-boshrelease
+cd blacksmith-boshrelease
+templates/make_manifest
 </code></pre>
 
 
@@ -298,34 +295,18 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="http://blacksmith.starkandwayne.com/deploying/" title="Deploying Blacksmith">
-        <span class="direction">
-          Previous
-        </span>
-        <div class="page">
-          <div class="button button-previous" role="button" aria-label="Previous">
-            <i class="icon icon-back"></i>
-          </div>
-          <div class="stretch">
-            <div class="title">
-              Deploying Blacksmith
-            </div>
-          </div>
-        </div>
-      </a>
-  
   </div>
 
   <div class="next">
   
-      <a href="http://blacksmith.starkandwayne.com/" title="Blacksmith">
+      <a href="http://blacksmith.starkandwayne.com/getting-started/" title="Getting Started">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Blacksmith
+              Getting Started
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
