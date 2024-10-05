@@ -1,4 +1,4 @@
-baseurl: http://blacksmith.starkandwayne.com/
+baseurl: http://blacksmith.community/
 blackfriday:
   fractions: true
   plainIDAnchors: true
@@ -39,7 +39,7 @@ params:
   repo_url: https://github.com/cloudfoundry-community/blacksmith
   version: 0.1.0
 social:
-  github: starkandwayne
-  twitter: starkandwayne
+  github: blacksmith-community
+  twitter: blacksmith-community
 theme: hugo-material-docs
 title: Blacksmith

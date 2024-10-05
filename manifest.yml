@@ -4,7 +4,7 @@ applications:
   memory: 64M
   disk_quota: 1024M
   host: blacksmith
-  domain: starkandwayne.com
+  domain: blacksmith.community
   buildpack: staticfile_buildpack
   stack: cflinuxfs2
   path: public

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blacksmith</title>
-    <link>http://blacksmith.starkandwayne.com/</link>
+    <link>http://blacksmith.community/</link>
     <description>Recent content on Blacksmith</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Jun 2016 19:49:00 -0400</lastBuildDate>
-    <atom:link href="http://blacksmith.starkandwayne.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blacksmith.community/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Deploying Blacksmith</title>
-      <link>http://blacksmith.starkandwayne.com/deploying/</link>
+      <link>http://blacksmith.community/deploying/</link>
       <pubDate>Thu, 23 Jun 2016 19:49:00 -0400</pubDate>
       
-      <guid>http://blacksmith.starkandwayne.com/deploying/</guid>
+      <guid>http://blacksmith.community/deploying/</guid>
       <description>
 
 &lt;h2 id=&#34;bosh-lite&#34;&gt;BOSH-lite&lt;/h2&gt;
@@ -31,10 +31,10 @@ templates/make_manifest
     
     <item>
       <title>Getting Started</title>
-      <link>http://blacksmith.starkandwayne.com/getting-started/</link>
+      <link>http://blacksmith.community/getting-started/</link>
       <pubDate>Mon, 20 Jun 2016 21:00:00 -0400</pubDate>
       
-      <guid>http://blacksmith.starkandwayne.com/getting-started/</guid>
+      <guid>http://blacksmith.community/getting-started/</guid>
       <description>
 
 &lt;h2 id=&#34;creating-your-first-forge&#34;&gt;Creating your first forge&lt;/h2&gt;
@@ -54,10 +54,10 @@ templates/make_manifest
     
     <item>
       <title>Blacksmith</title>
-      <link>http://blacksmith.starkandwayne.com/</link>
+      <link>http://blacksmith.community/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>http://blacksmith.starkandwayne.com/</guid>
+      <guid>http://blacksmith.community/</guid>
       <description>
 
 &lt;h2 id=&#34;what-is-blacksmith&#34;&gt;What is Blacksmith&lt;/h2&gt;
